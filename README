@@ -1,0 +1,71 @@
+=========================
+# OBJETIVO DO PROJETO
+=========================
+
+# Justificativa: Um café floricultura com alguns funcionários possui a necessidade 
+de um sistema para controlar a entrada e saída dos produtos desta loja, 
+assim como criar uma interface para os funcionários desse comércio.
+
+# Público-alvo: O público-alvo do sistema são os próprios funcionários da loja, que 
+usarão o sistema para gerenciar os processos internos do negócio.
+
+# Objetivos do sistema; o objetivo do sistema é gerenciar internamente o negócio, facilitando processos como: 
+cadastro, atualização e remoção de produtos;
+cadastro de funcionário ;
+controle de estoque;
+registro e gerenciamento de pedidos da loja.
+
+
+=========================
+# COMO USAR
+=========================
+
+
+=========================
+# ESTRUTURA DOS ARQUIVOS
+=========================
+
+├───backend
+│    │
+│    ├───controllers
+│    │      ├───
+│    ├───models
+│    │      ├───
+│    ├───routes
+│    │      ├───
+│    ├───services
+│    │      ├───
+│
+├───frontend
+│    │
+│    ├───
+│
+├───.env
+├───.gitgnore
+├───README
+
+
+
+=========================
+# TECNOLOGIAS USADAS
+=========================
+
+
+=========================
+# REQUISITOS
+=========================
+
+# Requisitos Funcionais:
+Autenticação de funcionários: O sistema deve permitir que os usuários realizem login e senha.
+Gerenciamento dos produtos: O sistema deve permitir cadastro, consulta, edição e exclusão de produtos.
+Gerenciamento de estoque: O sistema deve permitir o controle de estoque, incluindo entrada, saída e 
+consulta da quantidade disponível de produtos.
+Registro de pedidos: O sistema deve permitir registro e acompanhamento de pedidos.
+Gerenciamento de funcionários: O sistema deve permitir cadastro, consulta, edição e exclusão de funcionários..
+
+# Não funcionais:
+Controle de acesso: O sistema deve controlar o acesso às funcionalidades com base em perfis de usuário. 
+Usabilidade: O usuário deve conseguir realizar tarefas-chave (ex:registrar pedido) em no máximo x cliques. 
+Auditoria: O sistema deve registrar logs das ações realizadas pelos usuários, incluindo data, horário, usuário 
+responsável e alterações efetuadas. 
+
